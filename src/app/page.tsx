@@ -41,7 +41,7 @@ export default function Home() {
           {/* Substitua o src pelo caminho da sua imagem na pasta public */}
           {/* Se usar uma URL externa, adicione o domínio em next.config.mjs */}
           <Image
-            src="https://avatars.githubusercontent.com/u/140274298?v=4" // Exemplo: Sua imagem em public/hero-illustration.svg
+            src="/foto.jpg" // Exemplo: Sua imagem em public/hero-illustration.svg
             alt="Ilustração de desenvolvedor ou tecnologia"
             width={300} // Largura da imagem em pixels (importante para otimização)
             height={300} // Altura da imagem em pixels (importante para otimização)
