@@ -2,7 +2,6 @@
 'use client'; // <-- Este componente precisa ser um Client Component para usar AnimatePresence
 
 import './globals.css';
-import type { Metadata } from 'next';
 import { Inter, Outfit } from 'next/font/google';
 import { motion, AnimatePresence } from 'framer-motion'; // Importe motion e AnimatePresence
 import { usePathname } from 'next/navigation'; // Importe usePathname para obter a rota atual
