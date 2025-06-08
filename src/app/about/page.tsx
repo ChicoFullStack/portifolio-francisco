@@ -32,7 +32,7 @@ export default function About() {
           variants={sectionVariants}
         >
           <motion.img
-            src="https://avatars.githubusercontent.com/u/140274298?v=4" // Substitua pela sua foto
+            src="foto.jpg" // Substitua pela sua foto
             alt="Sua foto de perfil"
             className="w-48 h-48 rounded-full mx-auto mb-8 object-cover border-4 border-secondary-blue shadow-lg"
             initial={{ opacity: 0, scale: 0.8 }}
