@@ -32,7 +32,7 @@ export default function About() {
           variants={sectionVariants}
         >
           <motion.img
-            src="/foto.jpg" // Substitua pela sua foto
+            src="https://avatars.githubusercontent.com/u/140274298?v=4" // Usando sua foto do GitHub
             alt="Sua foto de perfil"
             className="w-48 h-48 rounded-full mx-auto mb-8 object-cover border-4 border-secondary-blue shadow-lg"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -56,7 +56,7 @@ export default function About() {
             variants={sectionVariants}
             transition={{ delay: 0.8 }}
           >
-            Com experiência tanto em **frontend** (React, Next.js, Tailwind CSS) quanto em **backend** (Node.js, Express, Python, Django), eu me considero um solucionador de problemas versátil. Adoro o desafio de criar interfaces de usuário intuitivas e bonitas, ao mesmo tempo em que garanto a robustez e a escalabilidade do lado do servidor.
+            Com sólida experiência em **frontend**, domino tecnologias como **React**, **Next.js**, **Angular**, e sou proficiente na estilização com **Tailwind CSS**. No **backend**, minhas habilidades incluem **Node.js** com **Express.js**, **Python** com **Django**, e também tenho experiência com **Java** e **Spring Boot**. Utilizo **Prisma** e **Axios** para interações robustas.
           </motion.p>
           <motion.p
             className="text-lg text-text-light leading-relaxed"
@@ -65,7 +65,7 @@ export default function About() {
             variants={sectionVariants}
             transition={{ delay: 1.0 }}
           >
-            Quando não estou codificando, gosto de [mencione alguns hobbies ou interesses, ex: jogar videogames, explorar novas tecnologias, fazer trilhas]. Acredito que o aprendizado contínuo e a paixão pelo que fazemos são chaves para o sucesso. Vamos criar algo incrível juntos!
+            Minha expertise se estende a bancos de dados, incluindo **MongoDB**, **PostgreSQL** e **MySQL**, garantindo soluções de armazenamento de dados eficientes. Para o dia a dia, conto com ferramentas como **Git**, **Docker**, **VS Code**, **IntelliJ IDEA**, **PyCharm** e **Eclipse**. Acredito que o aprendizado contínuo e a paixão pelo que fazemos são chaves para o sucesso. Vamos criar algo incrível juntos!
           </motion.p>
         </motion.div>
       </main>
