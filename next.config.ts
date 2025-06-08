@@ -1,24 +1,12 @@
 // next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'avatars.githubusercontent.com', // Adiciona o domínio do GitHub para a sua imagem
-        port: '',
-        pathname: '/**',
-      },
-      // Se você já tinha outros domínios aqui, mantenha-os.
-      // Exemplo:
-      // {
-      //   protocol: 'https',
-      //   hostname: 'via.placeholder.com',
-      //   port: '',
-      //   pathname: '/**',
-      // },
-    ],
-  },
+  // Se você não tiver outras imagens externas, pode remover a seção 'images' inteira
+  // images: {
+  //   remotePatterns: [
+  //     // Mantenha apenas se tiver outros domínios externos aqui
+  //   ],
+  // },
 };
 
 export default nextConfig;
